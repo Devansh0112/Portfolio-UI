@@ -1,0 +1,43 @@
+.Banner{
+    position: relative;
+    /* background-image: url("../../assets/banner.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(69, 173, 206, 0.3 );
+    height: 100vh;
+    font-family: 'Radley', serif;
+}
+
+h3{
+    font-size: 4em;
+}
+
+p{
+    line-height: 1.2em;
+    font-size: 2.5em;
+}
+
+a{
+    font-size: 1em;
+}
+
+.icon-space{
+    margin-left: 20px;
+}
+
+.flex-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SecNav{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.photo{
+    text-align: right;
+}
