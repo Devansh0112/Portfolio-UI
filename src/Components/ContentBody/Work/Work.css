@@ -1,3 +1,23 @@
 #work{
     height: 90vh;
+    width: 100%;
+}
+
+#work .col-lg-5{
+    border: 0.1px solid gray;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 0.5em;
+}
+
+#work .col-lg-5:hover{
+    border-color: transparent;
+    background-color: #038fb9;
+    color: white;
+    cursor: pointer;
+}
+
+#work .row{
+    justify-content: center;
+    text-align: center;
 }

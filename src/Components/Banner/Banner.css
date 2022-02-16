@@ -8,11 +8,11 @@
     font-family: 'Radley', serif;
 }
 
-h3{
+.Banner h3{
     font-size: 4em;
 }
 
-p{
+.Banner p{
     line-height: 1.2em;
     font-size: 2.5em;
 }
