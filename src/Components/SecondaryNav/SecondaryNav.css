@@ -1,0 +1,14 @@
+.navbar-nav {
+    margin-left: auto;
+    padding: 0;
+    margin-top: 0;
+}
+
+.SecNav .navbar-brand {
+    padding: 0px;
+    margin: 0px;
+}
+
+.cloud-img{
+    margin-left: 10px;
+}

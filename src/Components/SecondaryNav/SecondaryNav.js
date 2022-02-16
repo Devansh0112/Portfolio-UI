@@ -1,41 +1,27 @@
+import "../SecondaryNav/SecondaryNav.css";
+import logo from "../../assets/ds-logo.svg";
+import cloud from "../../assets/cloud.svg";
+import CV from "../../assets/Resume.pdf"
+
 function SecondaryNav() {
+
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Features
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Pricing
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">
-                Disabled
-              </a>
-            </li>
-          </ul>
+        <div className="container">
+          <a class="navbar-brand" href=".">
+            <img src={logo} alt="logo" height={"50"} width={"150"} />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href={CV} download>
+                  Download CV
+                  <img src={cloud} className="cloud-img" height={'15'} width={'15'} />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </div>

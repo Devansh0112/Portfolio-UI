@@ -1,9 +1,9 @@
 .Banner{
     position: relative;
-    /* background-image: url("../../assets/banner.jpg"); */
+    background-image: url("../../assets/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(69, 173, 206, 0.3 );
+    /* background-color: rgba(69, 173, 206, 0.3 ); */
     height: 100vh;
     font-family: 'Radley', serif;
 }
@@ -32,9 +32,15 @@ a{
     align-items: center;
 }
 
-.SecNav{
+.PrimaryNav{
     position: absolute;
     bottom: 0;
+    width: 100%;
+}
+
+.SecNav{
+    position: absolute;
+    top: 0;
     width: 100%;
 }
 
